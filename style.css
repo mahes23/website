@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.container img{
+    margin-left: 100px;
+    padding: 10px;
+}
+.nav{
+  position: absolute;
+  width: 600px;
+  left:60%;
+  margin-right: 10%;
+  margin-top: 3%;
+   
+}
+.nav li{
+   display: inline;
+   padding: 20px;
+   background-color:black;
+   text-transform: capitalize;
+    border-radius: 15px;
+    color:white;
+   font-weight: bolder;
+}
+.nav li:hover{
+    color: crimson;
+}
+.h1{
+   width: 100%;
+  
+}
+.h1 img{
+    width: 1518px;
+    height: 600px;
+}
+.foot{
+    margin-left: 40%;
+}
